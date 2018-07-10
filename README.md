@@ -19,18 +19,27 @@ We built our to-do app using Test driven Development (TDD). Our app helps people
  after finish.. we are review all parts and all functions in one team.
 
 How did we find the project?
+
 It was a great experience. We enjoyed teamwork.
 
 What did we learn?
+
 We learned how to divide the tasks between team members.
+
 We learned how make TDD tests.
+
 We Learned how write pure functions
+
 We Learned how use DOM manipulation.
 
  Who are we?
+ 
  Salwa Abu Maghasseb 
+ 
  Lubna 
+ 
  Ahmad Abu Lebda
+ 
  Marwan Elkhoudary
 
  
