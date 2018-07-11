@@ -34,7 +34,7 @@ It was a great experience. We enjoyed teamwork.
 
 * We learned how use DOM manipulation.
 
-* We learned How to Use Local Storage with JavaScript.
+* We learned how to use local storage with JavaScript.
 
 ## Who are we?
  
