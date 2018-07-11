@@ -1,6 +1,6 @@
 
 
-# ✨ _To do List Application _✨
+# ✨ _To Do List App_ ✨
 
 ## What ? 
 
