@@ -26,22 +26,22 @@ It was a great experience. We enjoyed teamwork.
 
 ## What did we learn?
 
-We learned how to divide the tasks between team members.
+* We learned how to divide the tasks between team members.
 
-We learned how make TDD tests.
+* We learned how make TDD tests.
 
-We Learned how write pure functions
+* We Learned how write pure functions
 
-We Learned how use DOM manipulation.
+* We Learned how use DOM manipulation.
 
 ## Who are we?
  
- Salwa Abu Maghasseb 
+ * Salwa Abu Maghasseb 
  
- Lubna Abed Eljawwad
+ * Lubna Abed Eljawwad
  
- Ahmad Abu Lebda
+ * Ahmad Abu Lebda
  
- Marwan Elkhoudary
+ * Marwan Elkhoudary
 
  
