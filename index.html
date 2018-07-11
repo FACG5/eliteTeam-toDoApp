@@ -1,21 +1,40 @@
-
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>tdd todo</title>
-    <link rel="stylesheet" href="./style.css">
-  </head>
-  <body>
-    <div id = "todo-container">
-        <ul>
-        </ul>
-    </div>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>tdd todo</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+
+<body>
+  <div class="conainer" align="center">
+    <h1>To DO List</h1>
+
     <form id="add-todo">
-      <input type="text" name="description" value="">
-      <input type="submit" name="" value="Submit">
+      <label for="maininput" style="font-size: 22px;margin-right: 10px;" >Insert A Task</label>
+      <input id="maininput" class="textinput" type="text" name="description" value="">
+      <input class="skip" type="submit" name="" value="Submit">
+
     </form>
-  </body>
-  <script type="text/javascript" src = "./logic.js"></script>
-  <script type="text/javascript" src = "./dom.js"></script>
+    <!-- <input type="submit" name="" value="Sort" id="sort"> -->
+    <section class="mainbox">
+      <div class="left">
+        <h2>ToDo</h2>
+        <div id="todo-container">
+        </div>
+      </div>
+      <div class="right">
+        <h2>Done</h2>
+        <div id="done-container">
+        </div>
+      </div>
+    </section>
+
+
+</body>
+<script type="text/javascript" src="./logic.js"></script>
+<script type="text/javascript" src="./dom.js"></script>
+
 </html>
