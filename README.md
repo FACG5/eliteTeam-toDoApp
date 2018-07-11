@@ -30,9 +30,11 @@ It was a great experience. We enjoyed teamwork.
 
 * We learned how make TDD tests.
 
-* We Learned how write pure functions
+* We learned how write pure functions
 
-* We Learned how use DOM manipulation.
+* We learned how use DOM manipulation.
+
+* We learned How to Use Local Storage with JavaScript.
 
 ## Who are we?
  
