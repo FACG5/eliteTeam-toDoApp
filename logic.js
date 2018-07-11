@@ -28,23 +28,65 @@ var todoFunctions = {
     // returns a new array, it should contain todos with the newTodo added to the end.
     // add an id to the newTodo. You can use the generateId function to create an id.
     // hint: array.concat
+   
+    var newarr = todoFunctions.cloneArrayOfObjects(todos);
+    newarr.push({
+      id: todoFunctions.generateId(),
+      description: newTodo,
+      done: false
+    });
+    return newarr;
   },
   deleteTodo: function(todos, idToDelete) {
     // should leave the input argument todos unchanged (you can use cloneArrayOfObjects)
     // return a new array, this should not contain any todo with an id of idToDelete
     // hint: array.filter
+    return todos.filter(function(x){
+      if(x.id!==idToDelete)
+      return x;
+    });
+    
+
   },
   markTodo: function(todos, idToMark) {
     // should leave the input argument todos unchanged (you can use cloneArrayOfObjects)
     // in the new todo array, all elements will remain unchanged except the one with id: idToMark
     // this element will have its done value toggled
     // hint: array.map
+return todos.map(function(x){
+      
+  if(x.id === idToMark)    
+     x.done = !x.done;
+      return x;
+   
+    });
+
+
+
   },
   sortTodos: function(todos, sortFunction) {
     // stretch goal! Do this last
     // should leave the input arguement todos unchanged (you can use cloneArrayOfObjects)
     // sortFunction will have same signature as the sort function in array.sort
     // hint: array.slice, array.sort
+    // var arr = todos.map(function(todo){
+    //   return todo.description;
+    // });
+    // var arr2 = arr.sort();
+
+    return  todos.sort(function(a,b) {
+      return (a.description > b.description) ? 1 : ((b.description > a.description) ? -1 : 0);} ); 
+
+  },
+  editTodos: function(todos,newToDo, editId) {
+
+    return todos.map(function(x){
+      
+    if(x.id === editId)    
+    x.description = newToDo;
+      return x;
+    });
+
   },
 };
 

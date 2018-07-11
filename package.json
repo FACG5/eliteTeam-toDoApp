@@ -1,0 +1,24 @@
+{
+  "name": "eliteteam-todoapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dom.js",
+  "scripts": {
+    "test": "node test.js |tap-spec "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FACG5/eliteTeam-toDoApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FACG5/eliteTeam-toDoApp/issues"
+  },
+  "homepage": "https://github.com/FACG5/eliteTeam-toDoApp#readme",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.1"
+  }
+}
