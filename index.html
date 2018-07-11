@@ -9,15 +9,18 @@
 
 
 <body>
-  <div class="conainer" align="center">
+
+  <header>
     <h1>To DO List</h1>
-
-    <form id="add-todo">
-      <label for="maininput" style="font-size: 22px;margin-right: 10px;" >Insert A Task</label>
-      <input id="maininput" class="textinput" type="text" name="description" value="">
-      <input class="skip" type="submit" name="" value="Submit">
-
-    </form>
+  </header>
+  <main class="conainer" align="center">
+    <section>
+      <form id="add-todo">
+        <label for="maininput" style="font-size: 22px;margin-right: 10px;">Insert A Task</label>
+        <input id="maininput" class="textinput" type="text" name="description" value="">
+        <input class="skip" type="submit" name="" value="Submit">
+      </form>
+    </section>
     <!-- <input type="submit" name="" value="Sort" id="sort"> -->
     <section class="mainbox">
       <div class="left">
@@ -29,8 +32,9 @@
         <h2>Done</h2>
         <div id="done-container">
         </div>
-      </div>
     </section>
+  </main>
+
 
 
 </body>
